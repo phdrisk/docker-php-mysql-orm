@@ -1,0 +1,20 @@
+{
+    "name": "root/html",
+    "description": "appCrud",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luiz Carlos Martins",
+            "email": "luiz_pr@hotmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim":"4.*",
+        "php-activerecord/php-activerecord":"^1.2"
+
+    }
+}
